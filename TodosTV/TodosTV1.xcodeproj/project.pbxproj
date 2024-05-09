@@ -14,6 +14,15 @@
 		B861DF972BE39BD8007767CD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B861DF962BE39BD8007767CD /* Base */; };
 		B861DF9F2BE39C10007767CD /* MyTodosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861DF9E2BE39C10007767CD /* MyTodosViewController.swift */; };
 		B861DFA12BE3A032007767CD /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B861DFA02BE3A032007767CD /* TodoListViewController.swift */; };
+		B8A456F32BE7A1EC0024BF92 /* TodoListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8A456F22BE7A1EC0024BF92 /* TodoListCell.xib */; };
+		B8A456F42BE7A1EC0024BF92 /* TodoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A456F12BE7A1EC0024BF92 /* TodoListCell.swift */; };
+		B8A456F82BE7B2740024BF92 /* TodoListItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8A456F72BE7B2740024BF92 /* TodoListItemCell.xib */; };
+		B8A456F92BE7B2740024BF92 /* TodoListItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A456F62BE7B2740024BF92 /* TodoListItemCell.swift */; };
+		B8A457082BE96E790024BF92 /* AddListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A457072BE96E790024BF92 /* AddListViewController.swift */; };
+		B8A4570C2BEBBD100024BF92 /* AddTodoListColorPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A4570A2BEBBD100024BF92 /* AddTodoListColorPickerCell.swift */; };
+		B8A4570D2BEBBD100024BF92 /* AddTodoListColorPickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8A4570B2BEBBD100024BF92 /* AddTodoListColorPickerCell.xib */; };
+		B8A457112BEBC3370024BF92 /* ColorOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A4570F2BEBC3370024BF92 /* ColorOptionCell.swift */; };
+		B8A457122BEBC3370024BF92 /* ColorOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8A457102BEBC3370024BF92 /* ColorOptionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,15 @@
 		B861DF982BE39BD8007767CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B861DF9E2BE39C10007767CD /* MyTodosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTodosViewController.swift; sourceTree = "<group>"; };
 		B861DFA02BE3A032007767CD /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
+		B8A456F12BE7A1EC0024BF92 /* TodoListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListCell.swift; sourceTree = "<group>"; };
+		B8A456F22BE7A1EC0024BF92 /* TodoListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoListCell.xib; sourceTree = "<group>"; };
+		B8A456F62BE7B2740024BF92 /* TodoListItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListItemCell.swift; sourceTree = "<group>"; };
+		B8A456F72BE7B2740024BF92 /* TodoListItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoListItemCell.xib; sourceTree = "<group>"; };
+		B8A457072BE96E790024BF92 /* AddListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddListViewController.swift; sourceTree = "<group>"; };
+		B8A4570A2BEBBD100024BF92 /* AddTodoListColorPickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoListColorPickerCell.swift; sourceTree = "<group>"; };
+		B8A4570B2BEBBD100024BF92 /* AddTodoListColorPickerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddTodoListColorPickerCell.xib; sourceTree = "<group>"; };
+		B8A4570F2BEBC3370024BF92 /* ColorOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorOptionCell.swift; sourceTree = "<group>"; };
+		B8A457102BEBC3370024BF92 /* ColorOptionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColorOptionCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +76,81 @@
 		B861DF892BE39BD7007767CD /* TodosTV1 */ = {
 			isa = PBXGroup;
 			children = (
+				B8A457092BEBBCA90024BF92 /* AddTodoListColorPickerCell */,
+				B8A457062BE96E490024BF92 /* AddList */,
+				B8A457052BE9693E0024BF92 /* TodoList */,
+				B8A457042BE968D20024BF92 /* MyTodos */,
 				B861DF8A2BE39BD7007767CD /* AppDelegate.swift */,
 				B861DF8C2BE39BD7007767CD /* SceneDelegate.swift */,
 				B861DF902BE39BD7007767CD /* Main.storyboard */,
 				B861DF932BE39BD8007767CD /* Assets.xcassets */,
 				B861DF952BE39BD8007767CD /* LaunchScreen.storyboard */,
 				B861DF982BE39BD8007767CD /* Info.plist */,
-				B861DF9E2BE39C10007767CD /* MyTodosViewController.swift */,
-				B861DFA02BE3A032007767CD /* TodoListViewController.swift */,
 			);
 			path = TodosTV1;
+			sourceTree = "<group>";
+		};
+		B8A456F02BE7A1730024BF92 /* TodoListCell */ = {
+			isa = PBXGroup;
+			children = (
+				B8A456F12BE7A1EC0024BF92 /* TodoListCell.swift */,
+				B8A456F22BE7A1EC0024BF92 /* TodoListCell.xib */,
+			);
+			path = TodoListCell;
+			sourceTree = "<group>";
+		};
+		B8A456F52BE7B2220024BF92 /* TodoListItemCell */ = {
+			isa = PBXGroup;
+			children = (
+				B8A456F62BE7B2740024BF92 /* TodoListItemCell.swift */,
+				B8A456F72BE7B2740024BF92 /* TodoListItemCell.xib */,
+			);
+			path = TodoListItemCell;
+			sourceTree = "<group>";
+		};
+		B8A457042BE968D20024BF92 /* MyTodos */ = {
+			isa = PBXGroup;
+			children = (
+				B8A456F02BE7A1730024BF92 /* TodoListCell */,
+				B861DF9E2BE39C10007767CD /* MyTodosViewController.swift */,
+			);
+			path = MyTodos;
+			sourceTree = "<group>";
+		};
+		B8A457052BE9693E0024BF92 /* TodoList */ = {
+			isa = PBXGroup;
+			children = (
+				B8A456F52BE7B2220024BF92 /* TodoListItemCell */,
+				B861DFA02BE3A032007767CD /* TodoListViewController.swift */,
+			);
+			path = TodoList;
+			sourceTree = "<group>";
+		};
+		B8A457062BE96E490024BF92 /* AddList */ = {
+			isa = PBXGroup;
+			children = (
+				B8A457072BE96E790024BF92 /* AddListViewController.swift */,
+			);
+			path = AddList;
+			sourceTree = "<group>";
+		};
+		B8A457092BEBBCA90024BF92 /* AddTodoListColorPickerCell */ = {
+			isa = PBXGroup;
+			children = (
+				B8A4570E2BEBC2F40024BF92 /* ColorOptionCell */,
+				B8A4570A2BEBBD100024BF92 /* AddTodoListColorPickerCell.swift */,
+				B8A4570B2BEBBD100024BF92 /* AddTodoListColorPickerCell.xib */,
+			);
+			path = AddTodoListColorPickerCell;
+			sourceTree = "<group>";
+		};
+		B8A4570E2BEBC2F40024BF92 /* ColorOptionCell */ = {
+			isa = PBXGroup;
+			children = (
+				B8A4570F2BEBC3370024BF92 /* ColorOptionCell.swift */,
+				B8A457102BEBC3370024BF92 /* ColorOptionCell.xib */,
+			);
+			path = ColorOptionCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +211,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8A457122BEBC3370024BF92 /* ColorOptionCell.xib in Resources */,
 				B861DF942BE39BD8007767CD /* Assets.xcassets in Resources */,
 				B861DF972BE39BD8007767CD /* Base in Resources */,
 				B861DF922BE39BD7007767CD /* Base in Resources */,
+				B8A4570D2BEBBD100024BF92 /* AddTodoListColorPickerCell.xib in Resources */,
+				B8A456F82BE7B2740024BF92 /* TodoListItemCell.xib in Resources */,
+				B8A456F32BE7A1EC0024BF92 /* TodoListCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +229,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B861DFA12BE3A032007767CD /* TodoListViewController.swift in Sources */,
+				B8A456F42BE7A1EC0024BF92 /* TodoListCell.swift in Sources */,
+				B8A457112BEBC3370024BF92 /* ColorOptionCell.swift in Sources */,
+				B8A457082BE96E790024BF92 /* AddListViewController.swift in Sources */,
+				B8A456F92BE7B2740024BF92 /* TodoListItemCell.swift in Sources */,
 				B861DF9F2BE39C10007767CD /* MyTodosViewController.swift in Sources */,
 				B861DF8B2BE39BD7007767CD /* AppDelegate.swift in Sources */,
+				B8A4570C2BEBBD100024BF92 /* AddTodoListColorPickerCell.swift in Sources */,
 				B861DF8D2BE39BD7007767CD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
